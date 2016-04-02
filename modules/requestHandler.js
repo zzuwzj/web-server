@@ -1,31 +1,31 @@
 function list(res) {
     console.log('Request list handler.');
-    handleRes(res, arguments[0]);
+    handleRes(res, 'list');
 }
 
 function get(res) {
     console.log('Request get handler.');
-    handleRes(res, arguments[0]);
+    handleRes(res, 'get');
 }
 
 function post(res) {
     console.log('Request post handler.');
-    handleRes(res, arguments[0]);
+    handleRes(res, 'post');
 }
 
 function put(res) {
     console.log('Request put handler.');
-    handleRes(res, arguments[0]);
+    handleRes(res, 'put');
 }
 
 function del(res) {
     console.log('Request delete handler.');
-    handleRes(res, arguments[0]);
+    handleRes(res, 'delete');
 }
 
 function query(res) {
     console.log('Request query handler.');
-    handleRes(res, arguments[0]);
+    handleRes(res, 'query');
 }
 
 function handleRes(res, action) {
